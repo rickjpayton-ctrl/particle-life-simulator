@@ -1,0 +1,22 @@
+{
+  "species": [
+    {"name": "Purple", "color": [200, 50, 255]},
+    {"name": "Orange", "color": [255, 150, 50]},
+    {"name": "Cyan", "color": [50, 255, 255]}
+  ],
+  "interaction_matrix": [
+    [1.2, -0.5, 0.1],
+    [-0.5, 1.0, -0.3],
+    [0.1, -0.3, 0.9]
+  ],
+  "particles": [
+    {"count": 150}
+  ],
+  "parameters": {
+    "interaction_radius": 60,
+    "force_strength": 0.1,
+    "friction_damping": 0.99,
+    "softening_distance": 6.0,
+    "particle_radius": 3
+  }
+}

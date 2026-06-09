@@ -1,0 +1,20 @@
+{
+  "species": [
+    {"name": "Predator", "color": [255, 0, 0]},
+    {"name": "Prey", "color": [0, 255, 0]}
+  ],
+  "interaction_matrix": [
+    [0.1, 0.8],
+    [-0.8, 0.3]
+  ],
+  "particles": [
+    {"count": 300}
+  ],
+  "parameters": {
+    "interaction_radius": 120,
+    "force_strength": 0.15,
+    "friction_damping": 0.96,
+    "softening_distance": 8.0,
+    "particle_radius": 4
+  }
+}
